@@ -1,0 +1,32 @@
+<header>
+  <h1 class="title">Hi {{#if name}}{{name}}{{else}}Visitor{{/if}}, Welcome</h1>
+</header>
+
+<label class="label">What is your name?</label>
+
+<div class="field is-grouped">
+  <div class="control is-expanded">
+    <input class="input" type="text" name="name" placeholder="Please enter your name">
+  </div>
+  <div class="control">
+    <button class="button is-info" type="submit" onClick="onSubmit()">
+      Submit my name
+    </button>
+  </div>
+</div>
+
+<section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Please also checkout the API at <a href="/api" class="button is-warning">/api/</a>
+      </h1>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="https://glitch.com">
+    Remix this in Glitch
+  </a>
+</footer>

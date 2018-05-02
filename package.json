@@ -1,0 +1,27 @@
+{
+  "name": "node-express-example-app",
+  "version": "0.0.1",
+  "description": "Provides a best practice example of how to use Node.js and Express together using modern JavaScript ES6 features including `async`/`await`",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "node-sass-middleware": "^0.11.0",
+    "bulma": "^0.7.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/node-express-example"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
